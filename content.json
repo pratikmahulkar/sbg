@@ -1,0 +1,325 @@
+{
+ "company": {
+  "name": "SBG Infratech Solutions",
+  "tagline": "World of Facade, Partition & Ceiling",
+  "motto": "Vision for Creation",
+  "phone": "+91 8087365247",
+  "tel": "+918087365247",
+  "email": "sbginfratechsolutions@gmail.com",
+  "address": "596, Sarafa Road, Behind Sawaiwala Jweelers, Chhatrapati Sambhajinagar (Aurangabad) - 431 001."
+ },
+ "categories": [
+  {
+   "id": "facades",
+   "title": "Facade systems",
+   "products": [
+    {
+     "id": "acp",
+     "t": "ACP – Aluminium Composite Panel",
+     "img": [
+      "acp"
+     ],
+     "p": [
+      "Aluminium Composite Panel or ACP sheet is a new-age material used for building front elevation (facades), interiors, signage, modular kitchens and much more. It is available in a wide range of colours and textures like wood, stone, sand, 3D etc. It can be bent, folded and turned into shapes that can't be achieved by any other material. Hence, ACP sheet allows more design liberty and is thus a designer's delight."
+     ],
+     "note": "Available in all sizes from 3mm to 10mm (on demand)"
+    },
+    {
+     "id": "hpl",
+     "t": "HPL – High Pressure Laminate",
+     "img": [
+      "hpl"
+     ],
+     "p": [
+      "HPL panels are manufactured using GLE technology that makes them resistant against fading, fire, extreme weather conditions, microbial threats and moisture. HPL sheets come with special fasteners made from non-corrosive materials like stainless steel and aluminium that offer better colour-fastening properties."
+     ],
+     "lh": "Ideal for",
+     "l": [
+      "Ventilated facades",
+      "Facade claddings",
+      "Balcony claddings",
+      "Partitions",
+      "Railings",
+      "Fences",
+      "Attic claddings",
+      "Ceilings",
+      "Public facilities",
+      "Playgrounds and sports facilities"
+     ],
+     "note": "Available in all sizes from 6mm to 10mm (on demand)"
+    },
+    {
+     "id": "louvers",
+     "t": "Louvers",
+     "img": [
+      "louvers-1",
+      "louvers-2"
+     ],
+     "p": [
+      "The Louver Aluminium Section comprises a series of two rows of blades, both horizontal and vertical, that interlink with each other and can be moved according to the desired pattern. Smooth functioning and unparalleled quality are some of the unique features of Louvers.",
+      "There are four basic types of louvers:"
+     ],
+     "dl": [
+      [
+       "Stationary louvers",
+       "Equipped with angled or airfoil-style blades that may provide weather protection and sound attenuation."
+      ],
+      [
+       "Adjustable louvers",
+       "With airfoil blades, these are also commonly available."
+      ],
+      [
+       "Combination louvers",
+       "Have blades that begin to open at one level of static pressure and become fully open at another. They may have backdraft damper blades and feature an all-aluminium construction for corrosion resistance."
+      ],
+      [
+       "Air measuring louvers",
+       "Have closely spaced vertical blades that prevent ingress of water."
+      ]
+     ]
+    },
+    {
+     "id": "baffles",
+     "t": "Baffles",
+     "img": [
+      "baffles"
+     ],
+     "p": [
+      "Baffles are a perfect fit for spacious rooms. The panels are arranged linearly or designed to form various patterns to render distinctive aesthetics. They allow natural flow of air and hidden, decorative lighting designs that subtly enhance the elegance and usability of any space. The baffles also enhance the acoustics of the space."
+     ],
+     "lh": "Types of baffles",
+     "l": [
+      "U-shaped baffles",
+      "End cap baffles",
+      "Reverse baffles",
+      "V-shaped baffles",
+      "Multiline baffles",
+      "Multilevel 3D baffles",
+      "U-shaped baffle louvers",
+      "V-shaped baffle louvers"
+     ]
+    },
+    {
+     "id": "mesh",
+     "t": "Expanded Metal Mesh",
+     "img": [
+      "mesh"
+     ],
+     "p": [
+      "Expanded Metal Mesh is produced from ductile metals and foils that are slit and expanded into a high-precision mesh for specific weight and dimensional requirements. The many applications of this innovative shading device enhance architectural design and are important to today's architects, engineers, builders and the building and construction industries at large."
+     ],
+     "lh": "Major applications",
+     "l": [
+      "Cladding to exterior walls",
+      "Building facades – external and internal ceilings",
+      "Decorative and acoustic panels",
+      "Sunscreens over windows and door frames",
+      "Signage and advertising",
+      "Partition walls",
+      "Staircase railings",
+      "Guard railings",
+      "Curtain walls and screens",
+      "Interior design features",
+      "Privacy screens"
+     ]
+    },
+    {
+     "id": "ventilated",
+     "t": "Ventilated Facades",
+     "img": [
+      "ventilated"
+     ],
+     "p": [
+      "Ventilated facades can improve a building's protection against noise pollution from outside. In this system the air cavity is almost totally open, fully ventilated and not very wide. Ventilated facade systems are increasingly common as they are light, easy to install and have the above advantages in new and renovated buildings.",
+      "The system improves protection from direct sun radiation through the double envelope and the ventilated air cavity that dissipates heat. It also reduces the transfer of humidity from rain to the building, as the ventilated air cavity dissipates excess humidity."
+     ]
+    },
+    {
+     "id": "cementitious",
+     "t": "Cementitious Facades",
+     "img": [
+      "cement-1",
+      "cement-2",
+      "cement-3"
+     ],
+     "p": [
+      "Cementitious facades are Calcium Silicate Board made from siliceous and calcareous materials reinforced with cellulose fibres. The boards are made using a laminar process and then an HPSC process to give a stable crystalline structure.",
+      "Cementitious facades score overwhelmingly against plywood, gypsum, MDF boards or any other wood composite boards in the market, and are the ideal choice for dry construction – be it walls, partitions or ceilings."
+     ],
+     "lh": "Some of the most remarkable properties",
+     "l": [
+      "Fire resistant",
+      "Water resistant",
+      "Termite resistant",
+      "Fungus resistant",
+      "Sound resistant",
+      "Thermal insulation",
+      "Eco-friendly",
+      "Superior finish"
+     ]
+    },
+    {
+     "id": "grc",
+     "t": "GRC – Glass Reinforced Cement",
+     "img": [
+      "grc-1",
+      "grc-2"
+     ],
+     "p": [
+      "Glass fibre reinforced concrete (GFRC) is a type of fibre-reinforced concrete. The product is also known as glassfibre reinforced concrete or GRC in British English. Glass fibre concretes are mainly used in exterior building facade panels and as architectural precast concrete."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "glass",
+   "title": "Glass & light",
+   "products": [
+    {
+     "id": "glazing",
+     "t": "Glass Glazing",
+     "img": [
+      "glass-hero",
+      "glass-1",
+      "glass-2"
+     ],
+     "p": [
+      "In recent times, the mall and retail space has been known to garner the most footfall. On the one hand, there is the need for showcases to display products with precision; on the other, it is important to create an ambience of comfort and safety for customers and staff. All of this is more than adequately met by one material – glass.",
+      "Commercial complexes that house offices have the important task of ensuring the safety of occupants while creating an environment conducive to greater productivity. A passive protection system of glazing, coupled with properties of acoustic insulation, can work wonders in achieving the desired results.",
+      "Public places and means of transport are responsible for the security of scores of people frequenting them. A high level of transparency and safety measures need to be in place to ensure a safe environment. Glass, with its unique properties, serves as an ideal candidate in these spaces."
+     ]
+    },
+    {
+     "id": "spider",
+     "t": "Spider Glass",
+     "img": [
+      "spider-1",
+      "spider-2"
+     ],
+     "p": [
+      "Glass, being an extremely versatile material, has found a number of uses in our day-to-day lives. Thanks to advancements in technology, glass and glass products are used indoors as well as outdoors. Glass is extensively used to make windows, doors and other supporting structures. Amidst it all, spider glazing installed with glass spider fittings has come up as an effective solution for exterior bolted glass assemblies.",
+      "It provides support to high-end exterior glass structures by means of point fixings. Constructed out of stainless steel, these fixings are excellent for absorbing and distributing all dynamic and static loads of the glass structure, such as the dead weight of the glass, differential expansion due to temperature fluctuations, and wind loading. Apart from fixings, the system also includes fasteners, glass and spider brackets."
+     ]
+    },
+    {
+     "id": "skylight",
+     "t": "Skylight Domes",
+     "img": [
+      "skylight-1",
+      "skylight-2"
+     ],
+     "p": [
+      "What better than to enjoy pure, soft, natural sunlight sitting in your office or at home? What better way to do that than to install a skylight dome?",
+      "Our elegantly designed skylight domes can be easily installed over your roof to deliver pure natural light from the sky above, right into your work and living spaces, so you can enjoy the splendour of sunshine every day without having to pay for it.",
+      "Skylight domes harness the power of the sun to deliver soft, pure natural light that brightens up dark and dingy spaces. Gone are the days when you had to spend a fortune on artificially illuminating your factories, offices or homes. Now you can use Rhinotuff domes to brighten your living and work spaces not just in the most natural but also the most economical way possible."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "interiors",
+   "title": "Interiors",
+   "products": [
+    {
+     "id": "walls",
+     "t": "Acoustic Walls",
+     "img": [
+      "walls-1",
+      "walls-2"
+     ],
+     "p": [
+      "An acoustic panel is a sound-absorbing panel used to mitigate background noise and reduce reverberation and echo in a space. We refer to acoustic panels in their broadest sense, including vertical and horizontal panels."
+     ],
+     "sh": "Materials used for acoustic walls",
+     "sp": [
+      "Soundproof drywall typically combines several layers of gypsum boards, along with steel, with the main aim of increasing its density and mass so as to block sound effectively. Any type of drywall can work well for soundproofing as long as decoupling is kept in mind.",
+      "Many other products are used as per site requirements or specifications by authorities."
+     ]
+    },
+    {
+     "id": "ceiling",
+     "t": "Acoustic Ceilings",
+     "img": [
+      "ceiling-1",
+      "ceiling-2"
+     ],
+     "p": [
+      "Acoustic ceiling panels serve as barriers to block sound from travelling to adjacent rooms and also reduce noise within a room. As they soften, remove and diffuse sounds, acoustic panels help create a more pleasant environment, free of echoes and bothersome noise."
+     ],
+     "sh": "Materials used for acoustic ceilings",
+     "sp": [
+      "Most ceiling panels are made from mineral fibre, but other materials such as fibreglass are available. Mineral fibre panels typically have a high Noise Reduction Coefficient (NRC), which means they are good at absorbing sound within a space to prevent echo or loud environments.",
+      "A combination of rock wool and glass wool material, and tiles made from it, is also used."
+     ]
+    },
+    {
+     "id": "cubicles",
+     "t": "Cubicles",
+     "img": [
+      "cubicle-1",
+      "cubicle-2",
+      "cubicle-3",
+      "cubicle-4"
+     ],
+     "p": [
+      "Give an elegant makeover to your restrooms with an exclusive range of shower, bathroom and toilet cubicle partitions. We offer a remarkable collection of divider panels, doors and connecting panels (end and mid)."
+     ],
+     "lh": "Exclusive features",
+     "l": [
+      "Available in antibacterial grade",
+      "Formulated using superior-quality high pressure laminates",
+      "Built with nylon polyamide, stainless steel and aluminium hardware fittings",
+      "Available in standard and special dimensions to cater to the needs of the specially abled",
+      "Available in various sizes, shapes and colour hues",
+      "Designed for better durability and performance",
+      "Hygienic and easy to maintain",
+      "Variety of restroom cubicles for kids",
+      "Designer-cut bathroom cubicles for unmatched aesthetic appeal"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "openings",
+   "title": "Windows & railings",
+   "products": [
+    {
+     "id": "windows",
+     "t": "Windows",
+     "gal": [
+      [
+       "win-alu",
+       "Aluminium window"
+      ],
+      [
+       "win-open",
+       "Openable window"
+      ],
+      [
+       "win-upvc",
+       "UPVC window"
+      ]
+     ]
+    },
+    {
+     "id": "railings",
+     "t": "Railings",
+     "gal": [
+      [
+       "rail-alu",
+       "Aluminium glass railings"
+      ],
+      [
+       "rail-ss",
+       "SS railings"
+      ],
+      [
+       "rail-ms",
+       "MS railings"
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}
