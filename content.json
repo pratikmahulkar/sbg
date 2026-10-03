@@ -321,5 +321,12 @@
     }
    ]
   }
- ]
+ ],
+ "social": {
+  "facebook": "https://www.facebook.com/your-page",
+  "instagram": "https://www.instagram.com/your-handle",
+  "linkedin": "https://www.linkedin.com/company/your-company",
+  "youtube": "https://www.youtube.com/@your-channel",
+  "whatsapp": "https://wa.me/918087365247?text=Hello%20SBG%20Infratech%2C%20I%20would%20like%20to%20enquire"
+ }
 }
