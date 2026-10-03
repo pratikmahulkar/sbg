@@ -8,6 +8,24 @@
   "email": "sbginfratechsolutions@gmail.com",
   "address": "596, Sarafa Road, Behind Sawaiwala Jweelers, Chhatrapati Sambhajinagar (Aurangabad) - 431 001."
  },
+ "site": {
+  "url": "",
+  "title": "SBG Infratech Solutions – Facades, Partitions & Ceilings | Chhatrapati Sambhajinagar",
+  "description": "SBG Infratech Solutions: ACP, HPL, louvers, baffles, glass glazing, acoustic walls and ceilings, cubicles, windows and railings. Call +91 8087365247."
+ },
+ "hero": {
+  "title": "World of facade, partition &",
+  "accent": "ceiling",
+  "text": "Vision for Creation. SBG Infratech Solutions supplies and installs ACP, HPL, louvers, glazing, acoustic systems, cubicles, windows and railings for commercial and residential buildings.",
+  "image": "glass-hero"
+ },
+ "social": {
+  "facebook": "https://www.facebook.com/your-page",
+  "instagram": "https://www.instagram.com/your-handle",
+  "linkedin": "https://www.linkedin.com/company/your-company",
+  "youtube": "https://www.youtube.com/@your-channel",
+  "whatsapp": "https://wa.me/918087365247?text=Hello%20SBG%20Infratech%2C%20I%20would%20like%20to%20enquire"
+ },
  "categories": [
   {
    "id": "facades",
@@ -321,12 +339,5 @@
     }
    ]
   }
- ],
- "social": {
-  "facebook": "https://www.facebook.com/your-page",
-  "instagram": "https://www.instagram.com/your-handle",
-  "linkedin": "https://www.linkedin.com/company/your-company",
-  "youtube": "https://www.youtube.com/@your-channel",
-  "whatsapp": "https://wa.me/918087365247?text=Hello%20SBG%20Infratech%2C%20I%20would%20like%20to%20enquire"
- }
+ ]
 }

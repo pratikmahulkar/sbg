@@ -1,0 +1,19 @@
+{% from "partials/macros.html" import social_link with context %}
+<section id="contact">
+  <div>
+    <h2>Let's plan your next project</h2>
+    <p class="m">{{ company.motto }}</p>
+    <address>
+      {{ company.address }}<br><br>
+      <a href="tel:{{ company.tel }}">{{ company.phone }}</a><br>
+      <a href="mailto:{{ company.email }}">{{ company.email }}</a>
+    </address>
+    <div class="soc">{% for s in socials %}{{ social_link(s) }}{% endfor %}</div>
+  </div>
+  <form id="f" data-email="{{ company.email }}">
+    <label>Name<input name="n" required></label>
+    <label>Phone<input name="p" type="tel" required></label>
+    <label>What do you need?<textarea name="m" rows="4" required></textarea></label>
+    <button class="btn" type="submit">Send enquiry</button>
+  </form>
+</section>

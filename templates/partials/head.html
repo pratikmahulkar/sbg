@@ -1,0 +1,15 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ site.title }}</title>
+<meta name="description" content="{{ site.description }}">
+{% if base %}<link rel="canonical" href="{{ base }}/">{% endif %}
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ site.title }}">
+<meta property="og:description" content="{{ site.description }}">
+{% if base %}<meta property="og:url" content="{{ base }}/"><meta property="og:image" content="{{ og_image }}">{% endif %}
+<link rel="icon" href="img/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Yeseva+One&display=swap" rel="stylesheet">
+<script type="application/ld+json">{{ ld|tojson }}</script>
+<style>{{ css|safe }}</style>

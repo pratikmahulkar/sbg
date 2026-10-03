@@ -1,0 +1,12 @@
+{% from "partials/macros.html" import picture with context %}
+<header class="hero" id="top">
+  <div>
+    <h1>{{ hero.title }} <span>{{ hero.accent }}</span></h1>
+    <p>{{ hero.text }}</p>
+    <div class="acts">
+      <a class="btn" href="#{{ categories[0].id }}">Explore our work</a>
+      <a class="btn o" href="#contact">Get in touch</a>
+    </div>
+  </div>
+  {{ picture(hero.image, company.name, "arch", "(max-width:860px) 100vw, 45vw", true) }}
+</header>

@@ -1,0 +1,6 @@
+<section class="cat" id="{{ cat.id }}">
+  <header><h2>{{ cat.title }}</h2></header>
+  {% for p in cat.products %}
+  {% include "partials/product.html" %}
+  {% endfor %}
+</section>
