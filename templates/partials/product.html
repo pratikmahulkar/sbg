@@ -1,0 +1,24 @@
+{% from "partials/macros.html" import picture with context %}
+<article class="prod" id="{{ p.id }}">
+  <div class="txt">
+    <h3>{{ p.t }}</h3>
+{% if p.gal %}
+  </div>
+  <div class="gal">
+    {% for name, label in p.gal %}
+    <figure>{{ picture(name, label, "arch", "(max-width:860px) 100vw, 33vw") }}<figcaption>{{ label }}</figcaption></figure>
+    {% endfor %}
+  </div>
+{% else %}
+    {% for text in p.p %}<p>{{ text }}</p>{% endfor %}
+    {% if p.dl %}<dl>{% for term, desc in p.dl %}<dt>{{ term }}</dt><dd>{{ desc }}</dd>{% endfor %}</dl>{% endif %}
+    {% if p.sh %}<h4>{{ p.sh }}</h4>{% for text in p.sp %}<p>{{ text }}</p>{% endfor %}{% endif %}
+    {% if p.l %}<h4>{{ p.lh }}</h4><ul>{% for item in p.l %}<li>{{ item }}</li>{% endfor %}</ul>{% endif %}
+    {% if p.note %}<p class="note">{{ p.note }}</p>{% endif %}
+    <a class="btn ghost" href="#contact">Request a quote for {{ p.t.split(" – ")[0] }}</a>
+  </div>
+  <div class="ph n{{ p.img|length }}">
+    {% for name in p.img %}{{ picture(name, p.t, "arch" if loop.first else "") }}{% endfor %}
+  </div>
+{% endif %}
+</article>

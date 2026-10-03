@@ -1,0 +1,23 @@
+{% from "partials/macros.html" import icon with context %}
+<div class="bar">
+  <a href="#top"><img src="img/logo.png" width="{{ images.logo.w }}" height="{{ images.logo.h }}" alt="{{ company.name }} logo"></a>
+  <nav aria-label="Main">
+    <details class="dd">
+      <summary>Services</summary>
+      <div class="menu">
+        {% for cat in categories %}
+        <div class="grp">
+          <a class="gh" href="#{{ cat.id }}">{{ cat.title }}</a>
+          <ul>{% for p in cat.products %}<li><a href="#{{ p.id }}">{{ p.t.split(" – ")[0] }}</a></li>{% endfor %}</ul>
+        </div>
+        {% endfor %}
+      </div>
+    </details>
+    <a href="#contact">Contact</a>
+  </nav>
+  {% if social_map.whatsapp %}
+  <a class="btn wa" href="{{ social_map.whatsapp }}" target="_blank" rel="noopener noreferrer">{{ icon("whatsapp") }}<span class="num">Chat on </span>WhatsApp</a>
+  {% else %}
+  <a class="btn" href="tel:{{ company.tel }}">Call</a>
+  {% endif %}
+</div>

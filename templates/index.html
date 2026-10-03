@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{% include "partials/head.html" %}
+</head>
+<body>
+{% include "partials/header.html" %}
+{% include "partials/hero.html" %}
+{% include "partials/overview.html" %}
+<main>
+{% for cat in categories %}
+{% include "partials/category.html" %}
+{% endfor %}
+</main>
+{% include "partials/contact.html" %}
+{% include "partials/footer.html" %}
+<script>{{ js|safe }}</script>
+</body>
+</html>

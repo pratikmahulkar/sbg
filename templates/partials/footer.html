@@ -1,0 +1,5 @@
+{% from "partials/macros.html" import social_link with context %}
+<footer>
+  <div class="soc ctr">{% for s in socials %}{{ social_link(s) }}{% endfor %}</div>
+  © {{ company.name }}. {{ company.tagline }}.
+</footer>

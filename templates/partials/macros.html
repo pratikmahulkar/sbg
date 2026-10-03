@@ -1,0 +1,18 @@
+{# Reusable snippets. Import with:  {% from "partials/macros.html" import picture, icon with context %} #}
+
+{% macro icon(name) -%}
+<svg viewBox="0 0 24 24" aria-hidden="true"><path d="{{ icons[name] }}"/></svg>
+{%- endmacro %}
+
+{% macro social_link(s) -%}
+<a href="{{ s.url }}" target="_blank" rel="noopener noreferrer" aria-label="{{ s.name|title }}" title="{{ s.name|title }}">{{ icon(s.name) }}</a>
+{%- endmacro %}
+
+{# Responsive photo: WebP + JPG, several widths, lazy-loaded unless eager=true #}
+{% macro picture(name, alt="", cls="", sizes="(max-width:860px) 100vw, 50vw", eager=false) -%}
+{% set m = images[name] -%}
+<picture>
+<source type="image/webp" srcset="{% for w in m.ws %}img/{{ name }}-{{ w }}.webp {{ w }}w{% if not loop.last %}, {% endif %}{% endfor %}" sizes="{{ sizes }}">
+<img src="img/{{ name }}-{{ m.ws[-1] }}.jpg" srcset="{% for w in m.ws %}img/{{ name }}-{{ w }}.jpg {{ w }}w{% if not loop.last %}, {% endif %}{% endfor %}" sizes="{{ sizes }}" width="{{ m.w }}" height="{{ m.h }}" alt="{{ alt }}" class="{{ cls }}" {% if eager %}fetchpriority="high"{% else %}loading="lazy" decoding="async"{% endif %}>
+</picture>
+{%- endmacro %}
